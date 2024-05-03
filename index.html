@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Construction</title>
+
+</head>
+<body>
+    <main class="main-div">
+           <!---------------- navbar--------------->
+        <nav>
+            <ul>
+                <li ><a href="#">HIDEVA GROUP</a></li>
+                <li class="hidemainbar"><a href="#">Home</a></li>
+                <li class="hidemainbar"><a href="#">Service</a></li>
+                <li class="hidemainbar"><a href="#">About</a></li>
+                <li class="hidemainbar"><a href="#">Blog</a></li>
+                <li class="hidemainbar"><a href="#"><button class="btn">Contact Us</button></a></li>
+
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#"><button class="btn">Contact Us</button></a></li>
+            </ul>
+        </nav>
+                  <!-- ----------main-section ------------ -->
+
+        <section class="Home">
+            <div class="left-header">
+                <h3>We are Hideva Group</h3>
+                <h1>Design and Build Contractor</h1>
+                <p>With unwavering commitment and expertise, we create spaces <span style="display: flex;">that stand as a testament to our dedication and</span> <span>craftsmanship</span></p>
+                <a href="#"><button class="btn">Get a quote</button></a>
+
+                <div class="Home-quotes">
+                 <div>
+                    <h2>18+</h2>
+                    <p>Construction <span style="display: flex;">Services</span></p>
+                 </div>
+                 <div>
+                    <h2>10+</h2>
+                    <p>Fundi <span style="display: flex;">Engineers</span></p>
+                 </div>
+                 <div>
+                    <h2>5+</h2>
+                    <p>Regular <span style="display: flex;">Suppliers</span></p>
+                 </div>
+                </div>
+            </div>
+
+            <div class="right-image">
+                <img src="assets/Rectangle.png" alt="">
+            </div>
+        </section>
+        
+
+        <!--------------- services ------------------>
+
+        <section class="service-div" id="Service">
+          <div class="service-header">
+            <h5>Services</h5>
+            <h3>Building Dreams, Crafting Realities</h3>
+          </div>
+
+            <div class="services">
+                <div class="service-card">
+                    <img src="assets/Rectangle 39.png" alt="">
+                    <h4>Consultation Services</h4>
+                    <ul>
+                        <li>Design & Build</li>
+                        <li>Cost Analysis</li>
+                        <li>Permits & Process</li>
+                        <li>Scheduling</li>
+                        <li>Phasing</li>
+                        <li>Resource Management</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <img src="assets/Rectangle 40.png" alt="">
+                    <h4>General Construction</h4>
+                    <ul>
+                        <li>Design & Build</li>
+                        <li>Cost Analysis</li>
+                        <li>Permits & Process</li>
+                        <li>Scheduling</li>
+                        <li>Phasing</li>
+                        <li>Resource Management</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <img src="assets/Rectangle 41.png" alt="">
+                    <h4>Maintenance Services</h4>
+                    <ul>
+                        <li>Design & Build</li>
+                        <li>Cost Analysis</li>
+                        <li>Permits & Process</li>
+                        <li>Scheduling</li>
+                        <li>Phasing</li>
+                        <li>Resource Management</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+           <!-- --------about section ---------->
+        <section class="about-div" id="About">
+         <div class="about-div-inside">
+            <div class="about-image">
+                <img src="assets/Rectangle 7.png" alt="">
+            </div>
+
+            <div class="about-details">
+                <h5>About Us</h5>
+                <h3>Efficiency, Building, Budget & Time</h3>
+                <p>Hideva Group is a team of skilled construction professionals with a passion for building and a commitment to excellence. We provide a range of services, from small-scale renovations to large-scale commercial construction. We believe in transparency and communication, and we work closely with our clients to ensure their needs are met. Thank you for considering us for your construction needs.</p>
+            </div>
+         </div>
+        </section>
+
+        <!-- ----------------Blog section---------------- -->
+
+        <section class="blog-div" id="Blog">
+            <div class="blog-header">
+                <h5>Blog</h5>
+                <h3>Insightful blogs about the construction industry.</h3>
+            </div>
+
+            <div class="blogs">
+                <div class="blog-card">
+                    <img src="assets/Rectangle 21.png" alt="">
+                    <h6>24 October 2022</h6>
+                    <h4>What are the processes involved in putting up a building?</h4>
+                    <div class="blog-para">
+                        <p>The process of putting up a building is usually done in phases and understanding this phases is important to a client in terms...</p>
+                    </div>
+                    <a href="#"><button class="btn">Read More</button></a>
+                </div>
+
+                <div class="blog-card">
+                    <img src="assets/Rectangle 28.png" alt="">
+                    <h6>3 November 2022</h6>
+                    <h4>What is Minimalist Architecture and Minimal Design Space?</h4>
+                    <div class="blog-para">
+                        <p>The process of putting up a building is usually done in phases and understanding this phases is important to a client in terms...</p>
+                    </div>
+                    <a href="#"><button class="btn">Read More</button></a>
+                </div>
+
+                <div class="blog-card">
+                    <img src="assets/Rectangle 29.png" alt="">
+                    <h6>5 January 2023</h6>
+                    <h4>What is Minimalist Architecture and Minimal Design Space?</h4>
+                    <div class="blog-para">
+                        <p>The process of putting up a building is usually done in phases and understanding this phases is important to a client in terms...
+                            
+                        </p>
+                    </div>
+                    <a href="#"><button class="btn">Read More</button></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get in touch section -->
+
+        <section class="contact-div" id="Contact">
+            <div class="contact-header">
+                <h5>Get in Touch</h5>
+                <h3>Reach out to us and let's turn your construction dreams into reality</h3>
+            </div>
+
+            <div class="contact-input">
+                <div class="input-field">
+                    <Label for="Name">Name </Label>
+                    <input type="text" id="" name="" placeholder="  John Doe">
+                    
+                    <Label for="Email">Email </Label>
+                    <input type="email" id="" name="" placeholder="  johndoe@gmail.com">
+                    
+                    <Label for="message">Message </Label>
+                    <textarea name="" id="" cols="" rows="10" placeholder="  Write everything here"></textarea>
+
+                    <button class="btn" type="submit">Send</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+
+    <footer class="footer-details">
+        <section class="footer-header">
+         <h3>HIDEVA GROUP</h3>
+        </section>
+ 
+        <section class="footer-list">
+         <div>
+             <h4>Services</h4>
+             <ul>
+                 <li><a href="">New Builds</a></li>
+                 <li><a href="">Renovations</a></li>
+                 <li><a href="">Conservations</a></li>
+                 <li><a href="">Fit Out</a></li>
+             </ul>
+         </div>
+         <div>
+             <h4>Information</h4>
+             <ul>
+                 <li><a href="">Events</a></li>
+                 <li><a href="">Contact Us</a></li>
+                 <li><a href="">Privacy Policy</a></li>
+                 <li><a href="">Terms of services</a></li>
+             </ul>
+         </div>
+         <div>
+             <h4>Address</h4>
+             <ul>
+                 <li><a href="">GTower-Gulshan</a></li>
+                 <li><a href="">Dhaka</a></li>
+                 <li style="text-decoration: underline;"><a href="">Call Us</a></li>
+                 <li style="text-decoration: underline;"><a href="">Email Us</a></li>
+             </ul>
+         </div>
+        </section>
+ 
+        <section class="icon-div">
+         <a href=""><img src="assets/Group 43.png" alt=""></a>
+         <a href=""><img src="assets/Group 44.png" alt=""></a>
+         <a href=""><img src="assets/Group 45.png" alt=""></a>
+        </section>
+ 
+     </footer>
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
