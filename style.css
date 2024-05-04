@@ -16,7 +16,6 @@ body{
     background-image: url(assets/Hideva.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: center; */
 }
 
 .main-div{
@@ -29,7 +28,6 @@ body{
 /* nav start */
 nav{
     background-color: white;
-
      ul{
         width: 80%;
         list-style: none;
@@ -41,7 +39,6 @@ nav{
      li{
         height: 80px;
     }
-    
      a{
         height: 100%;
         padding: 0 10px;
@@ -62,7 +59,7 @@ nav{
     }
 }
 
-
+ /* button for all */
 .btn{
     background-color: #EC9706;
     width: 100px;
@@ -70,8 +67,8 @@ nav{
     border-radius: 10px;
     border: none;
     color: white;
-
 }
+
 .sidebar{
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(1000px);
@@ -86,7 +83,7 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    
+
     li{
         width: 100%;
         height: 8%;
@@ -99,6 +96,7 @@ nav{
         width: 100%;
     }
 }
+
 .menu-button{
     display: none;
 }
@@ -117,7 +115,6 @@ nav{
     position: relative;
 
     .left-header{
-
         width: 55%;
         padding-left: var(--padL);
         padding-top: var(--padT);
@@ -141,7 +138,6 @@ nav{
 
     .right-image{
         width: 45%;
-    
         img{
             width: 100%;
             height: 100%;
@@ -152,7 +148,6 @@ nav{
         padding-top: var(--padT);
         display: flex;
         gap: 5%;
-    
         h2{
             color: #EC9706;
             font-size: 1.5em;
@@ -160,8 +155,7 @@ nav{
         p{
             font-size: 0.8em;
         }
-    }
-    
+    } 
 }
 
 
@@ -181,7 +175,6 @@ nav{
             font-weight: 600;
             padding-bottom: calc(var(--padB)*4);
         }
-
     }
 
     .services{
@@ -208,7 +201,6 @@ nav{
                 padding-left: calc(var(--padL)*1.7);
                 padding-top: calc(var(--padT)/15);
                 list-style-type: none; 
-                
                 li{
                     padding-bottom: var(--padB);
                 }
@@ -281,7 +273,7 @@ nav{
             padding-bottom: calc(var(--padB)*4);
         }
     }
-
+    
     .blogs{
         width: 85%;
         margin: auto;
@@ -411,11 +403,8 @@ nav{
                 }
             }  
         }
-
     }
 }
-
-
 
 
 
@@ -485,7 +474,6 @@ nav{
     .contact-input{
         width: 100% !important;
     }
-
 }
 
 @media screen and (max-width:400px){
