@@ -27,6 +27,10 @@ body{
      
 /* nav start */
 nav{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: white;
     
      ul{
         width: 80%;
@@ -48,6 +52,7 @@ nav{
         color: black; 
         font-size:medium;
         font-weight: 600;
+        
        
     }
      li:first-child{
